@@ -1,4 +1,4 @@
-package evgenyt.springdemo;
+package evgenyt.jacksondemo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;

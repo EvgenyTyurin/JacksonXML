@@ -1,4 +1,4 @@
-package evgenyt.springdemo;
+package evgenyt.jacksondemo;
 
 import static org.junit.Assert.assertTrue;
 

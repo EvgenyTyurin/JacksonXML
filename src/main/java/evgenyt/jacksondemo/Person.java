@@ -1,4 +1,4 @@
-package evgenyt.springdemo;
+package evgenyt.jacksondemo;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
