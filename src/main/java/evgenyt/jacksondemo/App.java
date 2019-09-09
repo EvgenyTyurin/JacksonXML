@@ -6,6 +6,8 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 /**
  * Jackson FasterXML sample
  * Aug 2019 EvgenyT
+ *
+ * test branch
  */
 
 public class App 
