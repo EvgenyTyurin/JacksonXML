@@ -1,15 +1,14 @@
 package evgenyt.jacksondemo;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 /**
- * Person <-> XML mapper
+ * Person object <-> XML mapper
  */
 
-@JacksonXmlRootElement(localName="person")
 public class Person {
 
+    // Property name mapping
     @JacksonXmlProperty(localName = "name")
     private String name;
 
@@ -19,5 +18,10 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
